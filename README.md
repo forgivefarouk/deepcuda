@@ -28,5 +28,6 @@ DeepCUDA is a repository dedicated to writing and optimizing CUDA kernels for hi
 
 # How to run it
 
+## Example to run vector_add.cu
 !nvcc -arch=sm_75 -gencode=arch=compute_75,code=sm_75 vector_add.cu -o vector_add
 !./vector_add
