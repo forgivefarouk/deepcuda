@@ -65,7 +65,7 @@ void rgb2gray_gpu(unsigned char *red, unsigned char *green, unsigned char *blue,
 
 int main() {
     // File path
-    const char* image_path = "../input/doggggg/dddoggg.jpg";
+    const char* image_path = "./dog.jpg";
     
     // Image properties
     int width, height, channels;
